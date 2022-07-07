@@ -2,7 +2,7 @@ def renamer_bot(file_name):
     specialchars = '.,!@#$%^&*() -=+<>?/\|[]{}'
     for i in specialchars:
         file_name = file_name.replace(i, '_')
-    file_name = file_name.replace('_xlxs', '.xlxs')
+    file_name = file_name.replace('_xlsx', '.xlsx')
     return file_name
 
 while True:
