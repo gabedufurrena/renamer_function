@@ -1,5 +1,5 @@
 def renamer_bot(file_name):
-    specialchars = '.,!@#$%^&*() -=+<>?/\|[]{}'
+    specialchars = """.,!@#$%^&*() -=+<>?'"/\|[]{}"""
     file_name = file_name.lower()
     for i in specialchars:
         file_name = file_name.replace(i, '_')
